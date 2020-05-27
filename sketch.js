@@ -18,7 +18,7 @@ function setup() {
 	world = engine.world;
 	Engine.run(engine);
 
-	paper = new Paper(120,590,70);
+	paper = new Paper(200,690,70);
 	
 	ground = new Ground(400,690,800,10);
 

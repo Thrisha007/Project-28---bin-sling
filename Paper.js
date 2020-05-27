@@ -5,7 +5,7 @@ class Paper{
           isStatic:false,
           restituion:0.3,
           friction:0.5,
-          density:5
+          density:1
       }
 
       this.body = Matter.Bodies.circle(x,y,radius/2,options);
